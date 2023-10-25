@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E2FF449E-B89D-4EDD-A652-3BCA92AA1FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesDatenbankEntities", "src\GamesDatenbankEntities\GamesDatenbankEntities.csproj", "{9E372016-9686-4B95-9DB3-1301A2CE6A82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesDatenbankConsole", "src\GamesDatenbankConsole\GamesDatenbankConsole.csproj", "{ED4C79D0-270E-48DF-8399-4F78442CFE0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E372016-9686-4B95-9DB3-1301A2CE6A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E372016-9686-4B95-9DB3-1301A2CE6A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E372016-9686-4B95-9DB3-1301A2CE6A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E372016-9686-4B95-9DB3-1301A2CE6A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED4C79D0-270E-48DF-8399-4F78442CFE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4C79D0-270E-48DF-8399-4F78442CFE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4C79D0-270E-48DF-8399-4F78442CFE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4C79D0-270E-48DF-8399-4F78442CFE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E372016-9686-4B95-9DB3-1301A2CE6A82} = {E2FF449E-B89D-4EDD-A652-3BCA92AA1FCD}
+		{ED4C79D0-270E-48DF-8399-4F78442CFE0B} = {E2FF449E-B89D-4EDD-A652-3BCA92AA1FCD}
+	EndGlobalSection
+EndGlobal
